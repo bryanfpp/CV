@@ -264,7 +264,7 @@ export default function CV() {
             <div className="cv-identity">
               <img
                 className="cv-photo"
-                src="/bryan-fuentes-photo.png"
+                src={`${import.meta.env.BASE_URL}bryan-fuentes-photo.png`}
                 alt={`Fotografía de ${resumeData.name}`}
                 width="112"
                 height="112"
